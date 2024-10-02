@@ -1,0 +1,42 @@
+.main {
+    display: grid;
+    place-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100vh;
+
+    .timers {
+        display: flex;
+    }
+}
+
+
+.title {
+    // width: 100%;
+    display: block;
+    padding-left: 10%;
+    margin: 90px 0;
+
+    h2 {
+        width: 100%;
+        // display: block;
+        padding-left: 6%;
+        margin: -45px 120px;
+        letter-spacing: 5px;
+    }
+
+    .back {
+        // position: absolute;
+
+        h3 {
+            color: #181818;
+            background-color: #181818;
+            font-size: 60px;
+            margin-top: -35px;
+            margin-left: 50px;
+            filter: opacity(15%);
+            text-shadow: -3px -3px 0 #a12ddb, 3px -1px 0 #f0e, -3px 3px 0 #c300ff, 2px 2px 0 #6a00ff;
+        }
+    }
+}
+

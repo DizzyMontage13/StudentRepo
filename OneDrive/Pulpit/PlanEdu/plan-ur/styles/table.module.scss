@@ -1,0 +1,45 @@
+.table {
+    display: flex;
+    width: 80%;
+    font-size: 15px;
+
+    .row {
+        // margin: 20px;
+        padding: 5px;
+        text-align: center;
+
+        .column:first-child {
+            background-color: rgb(68, 66, 66);
+        }
+
+        .column {
+
+            :first-child {
+                color: rgb(222, 101, 101);
+                font-weight: 800;
+                letter-spacing: 1.5px;
+            }
+
+            :nth-child(3) {
+                color: rgb(69, 179, 14);
+            }
+
+            :nth-child(4) {
+                letter-spacing: 1px;
+                font-weight: 800;
+            }
+            // padding: 50px;
+            min-height: 60px;
+            min-width: 200px;
+            padding: 5px;
+            margin: 10px;
+            // margin: 20px 5px;
+            background-color: rgb(51, 48, 43);
+
+            p {
+                margin: 5px 0;
+            }
+
+        }
+    }
+}
